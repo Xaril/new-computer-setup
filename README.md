@@ -18,3 +18,8 @@ This repository contains information regarding what to do when setting up a new 
 7. Download **ATOM**. This can be done here: https://atom.io/.
     1. In the header menu, press *Atom* and then *Install Shell Commands*. This will make it possible to open **ATOM** files via the **Terminal** using `atom`.
     2. Change the **Settings** to use spaces (*Soft tabs*) instead of tabs (*Hard tabs*). Also change the *tab length* to `4`.
+8. Install **homebrew**. Instructions on how to do this can be found here: https://brew.sh/.
+9. Install **fish**. Instructions on how to do this can be found here: https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/.
+    1. Aside from what was mentioned in the guide, make sure that you change the **default shell** in the **Terminal Settings**. This is done in the **General** section, and it should be changed to `/usr/local/bin/fish`.
+    2. Make sure to follow the **Basic Configuration** part as well.
+    3. Change the prompt of **fish** to be *Informative VCS*.
