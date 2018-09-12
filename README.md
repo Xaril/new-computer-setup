@@ -23,3 +23,8 @@ This repository contains information regarding what to do when setting up a new 
     1. Aside from what was mentioned in the guide, make sure that you change the **default shell** in the **Terminal Settings**. This is done in the **General** section, and it should be changed to `/usr/local/bin/fish`.
     2. Make sure to follow the **Basic Configuration** part as well.
     3. Change the prompt of **fish** to be *Informative VCS*.
+10. Install **fisherman**. Instructions on how to do this can be found here: https://github.com/jorgebucaran/fisher/blob/master/README.md.
+    1. Use **fisherman** (with **Terminal** command `fisher`) to install **z**.
+11. Install **python**. Instructions on how to do this can be found here: https://docs.python-guide.org/starting/install3/osx/.
+    1. In case **python** isn't pointing to `/usr/local/bin` but instead to **python2** in `/usr/bin`, do the following:
+        1. Add the following line to your `config.fish` file in `~/.config/fish/`: `set -gx PATH /usr/local/opt/python/libexec/bin $PATH`.
