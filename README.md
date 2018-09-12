@@ -28,3 +28,12 @@ This repository contains information regarding what to do when setting up a new 
 11. Install **python**. Instructions on how to do this can be found here: https://docs.python-guide.org/starting/install3/osx/.
     1. In case **python** isn't pointing to `/usr/local/bin` but instead to **python2** in `/usr/bin`, do the following:
         1. Add the following line to your `config.fish` file in `~/.config/fish/`: `set -gx PATH /usr/local/opt/python/libexec/bin $PATH`.
+        2. Make sure your `/etc/paths` file looks like this:
+            ```
+            /usr/local/bin
+            /usr/local/sbin
+            /usr/bin
+            /bin
+            /usr/sbin
+            /sbin
+            ```
