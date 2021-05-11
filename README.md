@@ -13,14 +13,13 @@ Last updated **2021-05-11**.
     3. Scale the screen so that windows aren't too large.
 3. Open the **Terminal**.
     1. Change the colour scheme to something visually appealing (for instance blue on a black background). Make sure the cursor is a line and not a block.
-4. In the **Terminal**, write `git --version`. This will prompt the computer to download the **Xcode Command Line Tools**. Install these.
-5. Install **git**. This can be done here: https://git-scm.com/downloads.
-6. Follow the **GitHub** guide to generate an **SSH key** for **GitHub** and all other **git** distributions you are using. The guide can be found here: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/.
-    1. Make sure you do not forget the step of adding a `config` file in the `.ssh` folder, containing information regarding adding the **SSH key** to your **keychain**. Also, make sure that you specify the `config` file correctly if several **SSH keys** are generated.
-7. Download **ATOM**. This can be done here: https://atom.io/.
+4. Install **homebrew**. Instructions on how to do this can be found here: https://brew.sh/.
+5. In the **Terminal**, write `git --version`. This will prompt the computer to download the **Xcode Command Line Tools**. Install these.
+6. Install **git**. This can be done here: https://git-scm.com/downloads.
+7. Add your SSH key to the `.ssh` folder.
+8. Download **ATOM**. This can be done here: https://atom.io/.
     1. In the header menu, press *Atom* and then *Install Shell Commands*. This will make it possible to open **ATOM** files via the **Terminal** using `atom`.
     2. Change the **Settings** to use spaces (*Soft tabs*) instead of tabs (*Hard tabs*). Also change the *tab length* to `4`.
-8. Install **homebrew**. Instructions on how to do this can be found here: https://brew.sh/.
 9. Install **fish**. Instructions on how to do this can be found here: https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/.
     1. Aside from what was mentioned in the guide, make sure that you change the **default shell** in the **Terminal Settings**. This is done in the **General** section, and it should be changed to `/usr/local/bin/fish`.
     2. Make sure to follow the **Basic Configuration** part as well.
