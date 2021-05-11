@@ -17,7 +17,7 @@ Last updated **2021-05-11**.
 5. Install **git**. This can be done here: https://git-scm.com/downloads.
 6. Add your SSH key to the `.ssh` folder.
 7. Install **fish**. Instructions on how to do this can be found here: https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/.
-    1. Aside from what was mentioned in the guide, make sure that you change the **default shell** in the **Terminal Settings**. This is done in the **General** section, and it should be changed to `/usr/local/bin/fish`.
+    1. Aside from what was mentioned in the guide, make sure that you change the **default shell** in the **Terminal Settings**. This is done in the **General** section, and it should be changed to `/opt/homebrew/bin/fish`.
     2. Make sure to follow the **Basic Configuration** part as well.
     3. Change the prompt of **fish** to be *Informative VCS*.
     4. Add the functions you would like implemented. If you type these directly into the **Terminal**, use `funcsave` to make sure they're permanently stored. For instance, you could add the following functions:
