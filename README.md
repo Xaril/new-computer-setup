@@ -1,18 +1,18 @@
 # new-computer-setup
 This repository contains information regarding what to do when setting up a new UNIX computer for development. It showcases a step by step list that details the steps required for Fredrik to become happy with his new computer.
 
-Last updated **2018-09-13**.
+Last updated **2021-05-11**.
 
 ## What to do:
 
-1. Go to **System Settings**.
+1. Download **Google Chrome**.
+    1. After **Chrome** has been downloaded, make sure it is set to the default browser. This can be set in the **General** section of the **System Settings**.
+2. Go to **System Settings**.
     1. Change right click to be in the bottom right corner instead of two fingers being used.
     2. Change the screen to not enter resting mode when the charger is connected.
     3. Scale the screen so that windows aren't too large.
-2. Open the **Terminal**.
+3. Open the **Terminal**.
     1. Change the colour scheme to something visually appealing (for instance blue on a black background). Make sure the cursor is a line and not a block.
-3. Download **Google Chrome**.
-    1. After **Chrome** has been downloaded, make sure it is set to the default browser. This can be set in the **General** section of the **System Settings**.
 4. In the **Terminal**, write `git --version`. This will prompt the computer to download the **Xcode Command Line Tools**. Install these.
 5. Install **git**. This can be done here: https://git-scm.com/downloads.
 6. Follow the **GitHub** guide to generate an **SSH key** for **GitHub** and all other **git** distributions you are using. The guide can be found here: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/.
