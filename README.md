@@ -46,18 +46,8 @@ Last updated **2021-05-11**.
 8. Install **fisherman**. Instructions on how to do this can be found here: https://github.com/jorgebucaran/fisher/blob/master/README.md.
     1. Use **fisherman** (with **Terminal** command `fisher`) to install **z** (https://github.com/jethrokuan/z).
 9. Download **VS Code**. This can be done here: https://code.visualstudio.com/.
-10. Install **python**. Instructions on how to do this can be found here: https://docs.python-guide.org/starting/install3/osx/.
-    1. In case **python** isn't pointing to `/usr/local/bin` but instead to **python2** in `/usr/bin`, do the following:
-        1. Add the following line to your `config.fish` file in `~/.config/fish/`: `set -gx PATH /usr/local/opt/python/libexec/bin $PATH`.
-        2. Make sure your `/etc/paths` file looks like this:
-            ```
-            /usr/local/bin
-            /usr/local/sbin
-            /usr/bin
-            /bin
-            /usr/sbin
-            /sbin
-            ```
+10. Install **python** using **brew**.
+    1. **brew** will mention that symlinks to unversioned commands of **python** will be available at a given location. This location should be added to the PATH in order to use `python3` by typing `python`.
 11. Install **node**. TODO: Add instructions.
 
 That's it! You're done for now. Good job! You should now happily be able to develop whatever you want. If you realize that something is missing, please come back and add it to this list!
