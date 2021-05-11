@@ -14,13 +14,9 @@ Last updated **2021-05-11**.
 3. Open the **Terminal**.
     1. Change the colour scheme to something visually appealing (for instance blue on a black background). Make sure the cursor is a line and not a block.
 4. Install **homebrew**. Instructions on how to do this can be found here: https://brew.sh/.
-5. In the **Terminal**, write `git --version`. This will prompt the computer to download the **Xcode Command Line Tools**. Install these.
-6. Install **git**. This can be done here: https://git-scm.com/downloads.
-7. Add your SSH key to the `.ssh` folder.
-8. Download **ATOM**. This can be done here: https://atom.io/.
-    1. In the header menu, press *Atom* and then *Install Shell Commands*. This will make it possible to open **ATOM** files via the **Terminal** using `atom`.
-    2. Change the **Settings** to use spaces (*Soft tabs*) instead of tabs (*Hard tabs*). Also change the *tab length* to `4`.
-9. Install **fish**. Instructions on how to do this can be found here: https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/.
+5. Install **git**. This can be done here: https://git-scm.com/downloads.
+6. Add your SSH key to the `.ssh` folder.
+7. Install **fish**. Instructions on how to do this can be found here: https://hackercodex.com/guide/install-fish-shell-mac-ubuntu/.
     1. Aside from what was mentioned in the guide, make sure that you change the **default shell** in the **Terminal Settings**. This is done in the **General** section, and it should be changed to `/usr/local/bin/fish`.
     2. Make sure to follow the **Basic Configuration** part as well.
     3. Change the prompt of **fish** to be *Informative VCS*.
@@ -47,9 +43,10 @@ Last updated **2021-05-11**.
             end
             end
             ```
-10. Install **fisherman**. Instructions on how to do this can be found here: https://github.com/jorgebucaran/fisher/blob/master/README.md.
+8. Install **fisherman**. Instructions on how to do this can be found here: https://github.com/jorgebucaran/fisher/blob/master/README.md.
     1. Use **fisherman** (with **Terminal** command `fisher`) to install **z**.
-11. Install **python**. Instructions on how to do this can be found here: https://docs.python-guide.org/starting/install3/osx/.
+9. Download **VS Code**. This can be done here: https://code.visualstudio.com/.
+10. Install **python**. Instructions on how to do this can be found here: https://docs.python-guide.org/starting/install3/osx/.
     1. In case **python** isn't pointing to `/usr/local/bin` but instead to **python2** in `/usr/bin`, do the following:
         1. Add the following line to your `config.fish` file in `~/.config/fish/`: `set -gx PATH /usr/local/opt/python/libexec/bin $PATH`.
         2. Make sure your `/etc/paths` file looks like this:
@@ -61,7 +58,6 @@ Last updated **2021-05-11**.
             /usr/sbin
             /sbin
             ```
-12. Install the **java JDK**. Instructions on how to do this can be found here: https://www.lonecpluspluscoder.com/2017/04/27/installing-java-8-jdk-os-x-using-homebrew/.
-13. Install **IntelliJ**. Instructions on how to do this can be found here: https://www.jetbrains.com/idea/.
+11. Install **node**. TODO: Add instructions.
 
-That's it! You're done. Good job! You should now happily be able to develop whatever you want. If you realize that something is missing, please come back and add it to this list!
+That's it! You're done for now. Good job! You should now happily be able to develop whatever you want. If you realize that something is missing, please come back and add it to this list!
