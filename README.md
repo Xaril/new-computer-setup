@@ -44,7 +44,7 @@ Last updated **2021-05-11**.
             end
             ```
 8. Install **fisherman**. Instructions on how to do this can be found here: https://github.com/jorgebucaran/fisher/blob/master/README.md.
-    1. Use **fisherman** (with **Terminal** command `fisher`) to install **z**.
+    1. Use **fisherman** (with **Terminal** command `fisher`) to install **z** (https://github.com/jethrokuan/z).
 9. Download **VS Code**. This can be done here: https://code.visualstudio.com/.
 10. Install **python**. Instructions on how to do this can be found here: https://docs.python-guide.org/starting/install3/osx/.
     1. In case **python** isn't pointing to `/usr/local/bin` but instead to **python2** in `/usr/bin`, do the following:
