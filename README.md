@@ -48,6 +48,6 @@ Last updated **2021-05-11**.
 9. Download **VS Code**. This can be done here: https://code.visualstudio.com/.
 10. Install **python** using **brew**.
     1. **brew** will mention that symlinks to unversioned commands of **python** will be available at a given location. This location should be added to the PATH in order to use `python3` by typing `python`.
-11. Install **node**. TODO: Add instructions.
+11. Install **node** using **brew**.
 
 That's it! You're done for now. Good job! You should now happily be able to develop whatever you want. If you realize that something is missing, please come back and add it to this list!
